@@ -12,7 +12,8 @@ const Hero = (props) => (
         My Personal Portfolio.
       </SectionTitle>
       <SectionText>
-        The purpose of portfolio is to learn new concept and manage my projects for outer world.
+        {/* The purpose of portfolio is to learn new concept and manage my projects for outer world. */}
+        This portfolio showcases my journey in mastering new concepts and managing projects for the digital world.
       </SectionText>
       <Button onClick={() => window.location = 'https:google.com'}>Learn More</Button>
     </LeftSection>
